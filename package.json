@@ -1,6 +1,6 @@
 {
   "name": "ts-cie1931-rgb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/ColorConverter.js",
   "repository": "https://github.com/cyberpsych0siis/js-CIE-1931-rgb-color-converter",
   "author": "thallosaurus <activator112233@gmail.com>",
@@ -15,7 +15,7 @@
     "converter",
     "types",
     "typescript"
-   ],
+  ],
   "files": [
     "dist/ColorConverter.d.ts",
     "dist/ColorConverter.js"
