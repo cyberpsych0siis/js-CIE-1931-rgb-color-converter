@@ -8,7 +8,6 @@
   "bugs": {
     "url": "https://github.com/cyberpsych0siis/js-CIE-1931-rgb-color-converter/issues"
   },
-  "private": true,
   "files": [
     "dist/ColorConverter.d.ts",
     "dist/ColorConverter.js"
