@@ -1,5 +1,5 @@
 # ts-cie1931-rgb
-A TypeScript fork of (https://github.com/Shnoo/js-CIE-1931-rgb-color-converter)[https://github.com/Shnoo/js-CIE-1931-rgb-color-converter] for usage in TypeScript Projects
+A TypeScript fork of [js-CIE-1931-rgb-color-converter](https://github.com/Shnoo/js-CIE-1931-rgb-color-converter) for usage in TypeScript Projects
 
 ## Additional Features:
 - Type Declarations
