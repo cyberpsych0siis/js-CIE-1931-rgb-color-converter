@@ -1,5 +1,5 @@
 {
-  "name": "js-CIE-1931-rgb-color-converter",
+  "name": "ts-cie1931-rgb",
   "version": "1.0.0",
   "main": "ColorConverter.js",
   "repository": "https://github.com/cyberpsych0siis/js-CIE-1931-rgb-color-converter",

@@ -1,0 +1,53 @@
+# JavaScript CIE-1931-rgb-color-converter
+A simple JS  lib for converting rgb to cie1931 (Which Philips HUE Color lights use) and vice versa.
+
+- NO dependency
+- Automatically adjusts Colors based on light capability
+- Color correction supports a range of Philips Hue lights
+- ECMAScript 6
+- Easy to use
+
+This lib was made with the help of the Philips Hue Docs.
+
+Note: *Color accuracy can differ depening on light capabilites.*
+
+# Installation
+
+Download the script [here](https://github.com/Shnoo/js-CIE-1931-rgb-color-converter/blob/master/ColorConverter.js) and include it (unless you are packaging scripts somehow else)
+
+```html
+<script src="path/to/ColorConverter.js"></script>
+```
+
+### CDN
+
+Alternatively, you can use a CDN hosted version of the script
+```html
+<script src="https://cdn.jsdelivr.net/npm/cie-rgb-color-converter"></script>
+```
+
+### NPM
+```
+npm install cie-rgb-color-converter
+```
+
+# Usage
+
+### Convert RGB to XY for Philips Hue lights
+```js
+let xy = ColorConverter.rgbToXy(red, green, blue, light.modelid);
+// xy = {x: xValue, y: yValue};
+```
+
+### Convert RGB to XY for non Philips lights
+```js
+let xy = ColorConverter.rgbToXy(red, green, blue);
+// xy = {x: xValue, y: yValue};
+```
+*Note: Colors may be off due to gamut capabilities of the Light. This setting uses a default gamut range provided by Philips Hue Docs. This may exceed the lights capabilities, resulting in wrong colors depending on lights behaviour.*
+
+### Convert XY + bightness to RGB
+```js
+let rgb = ColorConverter.xyBriToRgb(x, y, brightness);
+// rgb = {r: redValue, g: greenValue, b: blueValue}
+```
