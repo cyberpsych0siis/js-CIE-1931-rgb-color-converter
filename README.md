@@ -17,7 +17,7 @@ A TypeScript fork of [js-CIE-1931-rgb-color-converter](https://github.com/Shnoo/
 
 ```ts
 //Import library
-import ColorConverter from 'ts-cie-1932-rgb-color-converter';
+import ColorConverter from 'ts-cie1931-rgb';
 
 //Convert RGB to XY for Philips Hue lights
 let xy = ColorConverter.rgbToXy(red, green, blue, light.modelid);
