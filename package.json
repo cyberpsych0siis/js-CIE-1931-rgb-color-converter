@@ -8,6 +8,14 @@
   "bugs": {
     "url": "https://github.com/cyberpsych0siis/js-CIE-1931-rgb-color-converter/issues"
   },
+  "keywords": [
+    "philips",
+    "hue",
+    "color",
+    "converter",
+    "types",
+    "typescript"
+   ],
   "files": [
     "dist/ColorConverter.d.ts",
     "dist/ColorConverter.js"
