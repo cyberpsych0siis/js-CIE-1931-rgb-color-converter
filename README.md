@@ -7,10 +7,10 @@ A TypeScript fork of [js-CIE-1931-rgb-color-converter](https://github.com/Shnoo/
 
 ## Installation
 ### NPM
-`coming soon`
+`npm i ts-cie1931-rgb`
 
 ### CDN
-`coming soon`
+`<script src="https://unpkg.com/ts-cie1931-rgb"></script>`
 
 
 ## Usage
